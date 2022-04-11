@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="../static/js/calculator.js"></script>
+<link rel="stylesheet" type="text/css" href="../static/css/calculator.css">
+
+<title>Insert title here</title>
+</head>
+<body>
+
+	<table id="calculate_table">
+
+		<tr>
+			<td id="result_value" colspan="4"></td> 
+		</tr>
+		<tr>
+			<td id="calculating_value" colspan="4">0</td>
+		</tr>
+		<tr>
+			<td><button type="button" class="num_btn number">1</button></td>
+			<td><button type="button" class="num_btn number">2</button></td>
+			<td><button type="button" class="num_btn number">3</button></td>
+			<td><button type="button" class="sign_btn sign" value="+">+</button></td>
+		</tr>
+		<tr>
+			<td><button type="button" class="num_btn number">4</button></td>
+			<td><button type="button" class="num_btn number">5</button></td>
+			<td><button type="button" class="num_btn number">6</button></td>
+			<td><button type="button" class="sign_btn sign" value="-">-</button></td>
+		</tr>
+		<tr>
+			<td><button type="button" class="num_btn number">7</button></td>
+			<td><button type="button" class="num_btn number">8</button></td>
+			<td><button type="button" class="num_btn number">9</button></td>
+			<td><button type="button" class="sign_btn sign" value="*">×</button></td>
+		</tr>
+		<tr>
+			<td><button type="button" class="num_btn" id="ac_btn">AC</button></td>
+			<td><button type="button" class="num_btn number">0</button></td>
+			<td><button type="button" class="num_btn" id="dot_btn">.</button></td>
+			<td><button type="button" class="sign_btn sign" value="/">÷</button></td>
+		</tr>
+		<tr>
+			<td colspan="4"><button type="button" class="sign_btn" id="equal_btn">=</button></td>
+		</tr>
+	</table>
+
+</body>
+</html>
